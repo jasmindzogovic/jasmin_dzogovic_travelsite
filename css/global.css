@@ -23,7 +23,7 @@ nav a {
 
 nav li {
     list-style-type: none;
-    padding-right: 1rem;
+    margin-right: 1rem;
 }
 
 .nav__list ul {
@@ -37,14 +37,28 @@ nav li {
     padding: 2rem 0 2rem 0;
 }
 
+.footer__container h3 {
+    margin-bottom: 2rem;
+    color: #335576;
+}
+
+.contact__container {
+    margin-right: 5rem;
+}
+
 .hours__container {
     display: flex;
     flex-direction: column;
+    margin-right: 5rem;
 }
 
 .social__container {
     display: flex;
     flex-direction: column;
+}
+
+.footer__paragraph--orange {
+
 }
 
 .footer__icon {

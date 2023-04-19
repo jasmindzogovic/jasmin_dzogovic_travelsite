@@ -1,3 +1,7 @@
+.nav__list li:first-child {
+    border-bottom: 3px solid #DB7A4E;
+}
+
 .hero__sectionContainer {
     display: flex;
     justify-content: space-between;
