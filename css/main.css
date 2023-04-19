@@ -55,26 +55,23 @@
     padding: 4rem;
 }
 
-.card__container {
-    width: 15rem;
-    height: 20rem;
-}
+
 
 .hawaii__card {
     background: no-repeat center url(../assets/Images/hawaii.jpg);
-    background-size: contain;
+    background-size: cover;
     position: relative;
 }
 
 .iceland__card {
     background: no-repeat center url(../assets/Images/iceland.jpg);
-    background-size: contain;
+    background-size: cover;
     position: relative;
 }
 
 .greece__card {
     background: no-repeat center url(../assets/Images/greece.jpg);
-    background-size: contain;
+    background-size: cover;
     position: relative;
 }
 
