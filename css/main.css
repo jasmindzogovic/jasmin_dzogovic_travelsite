@@ -13,7 +13,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: var(--beige);
-    padding: 3rem 5rem 3rem 5rem;
+    padding: 5rem 5rem 5rem 5rem;
 }
 
 .hero__header {
@@ -69,14 +69,16 @@
 .iceland__card {
     background: no-repeat center url(../assets/Images/iceland.jpg);
     background-size: contain;
+    position: relative;
 }
 
 .greece__card {
     background: no-repeat center url(../assets/Images/greece.jpg);
     background-size: contain;
+    position: relative;
 }
 
-.cardSection__container {
+.card-section__container {
     display: flex;
     justify-content: center;
 }
