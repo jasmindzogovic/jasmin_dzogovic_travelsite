@@ -1,0 +1,36 @@
+.hero__sectionContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FEFAF5;
+    padding: 3rem 5rem 3rem 5rem;
+}
+
+.hero__header {
+    padding-bottom: 1.5rem;
+    font-size: 2.5rem;
+}
+
+.hero__text--left {
+    width: 40%;
+    color: #335576;
+}
+
+.hero__paragraph {
+    font-size: 1rem;
+    line-height: 1.3rem;
+    padding-bottom: 1.5rem;
+}
+
+.hero__img {
+    width: 30rem;
+    height: 25rem;
+}
+
+.getStarted__btn {
+    background-color: #DB7A4E;
+    color: white;
+    padding: 0.75rem 2.75rem;
+    border-radius: 30px;
+    border: 0px;
+}

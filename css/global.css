@@ -30,8 +30,6 @@ nav li {
     display: flex;
 }
 
-
-
 .footer__container {
     display: flex;
     justify-content: center;
@@ -46,6 +44,12 @@ nav li {
 
 .social__container {
     display: flex;
+    flex-direction: column;
+}
+
+.footer__icon {
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 .hours__container--columns {
