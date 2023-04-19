@@ -63,6 +63,7 @@
 .hawaii__card {
     background: no-repeat center url(../assets/Images/hawaii.jpg);
     background-size: contain;
+    position: relative;
 }
 
 .iceland__card {
@@ -83,4 +84,11 @@
 .card__section-heading {
     color: var(--blue);
     padding-bottom: 2rem;
+}
+
+.card__heading--bottom-right {
+    position: absolute;
+    color: white;
+    right: 2rem;
+    top: 18rem;
 }
