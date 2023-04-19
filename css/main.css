@@ -4,11 +4,11 @@
     --orange: #DB7A4E;
 }
 
-.nav__list li:first-child {
+.nav__header-list li:first-child {
     border-bottom: 3px solid var(--orange);
 }
 
-.hero__sectionContainer {
+.hero__section-container {
     display: flex;
     justify-content: space-between;
     align-items: center;

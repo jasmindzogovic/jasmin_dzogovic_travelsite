@@ -15,7 +15,7 @@ nav {
     background-color: #FFFFFF;
 }
 
-.nav__list li:hover {
+.nav__header-list li:hover {
     border-bottom: 3px solid var(--orange);
     transition: transform .5s ease-in-out;
 }
@@ -34,7 +34,7 @@ nav li {
     margin-right: 1rem;
 }
 
-.nav__list ul {
+.nav__header-list ul {
     display: flex;
 }
 
@@ -76,7 +76,7 @@ nav li {
     padding-bottom: 0.5rem;
 }
 
-.footer__paragraphInfo {
+.footer__paragraph-info {
     color: var(--blue);
     font-size: 0.7rem;
 }
@@ -92,6 +92,6 @@ nav li {
     transition: transform .3s ease-in-out;
 }
 
-.hours__container--columns {
+.hours__container-columns {
     display: flex;
 }
