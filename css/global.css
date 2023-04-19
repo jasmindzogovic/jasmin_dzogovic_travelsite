@@ -29,3 +29,25 @@ nav li {
 .nav__list ul {
     display: flex;
 }
+
+
+
+.footer__container {
+    display: flex;
+    justify-content: center;
+    background-color: #FEFAF5;
+    padding: 2rem 0 2rem 0;
+}
+
+.hours__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.social__container {
+    display: flex;
+}
+
+.hours__container--columns {
+    display: flex;
+}
