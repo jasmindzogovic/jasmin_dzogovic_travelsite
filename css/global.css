@@ -40,12 +40,12 @@ nav li {
 }
 
 .card__container {
-    width: 12rem;
+    width: 13rem;
     height: 20rem;
     border-radius: 5px;
-    border: 1px solid black 0.2;
-    box-shadow: 0px 4px 4px black;
-    margin-right: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    margin-right: 2rem;
 }
 
 .nav__header-list ul {
@@ -96,9 +96,12 @@ nav li {
 }
 
 .footer__icon {
-    width: 1.5rem;
     height: 1.5rem;
     margin-right: 1rem;
+}
+
+.social-icon__anchor {
+    text-decoration: none;
 }
 
 .footer__icon:hover {

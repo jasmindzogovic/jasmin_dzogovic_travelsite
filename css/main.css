@@ -52,10 +52,8 @@
 }
 
 .card__section {
-    padding: 4rem;
+    padding: 5rem;
 }
-
-
 
 .hawaii__card {
     background: no-repeat center url(../assets/Images/hawaii.jpg);
@@ -88,6 +86,6 @@
 .card__heading--bottom-right {
     position: absolute;
     color: white;
-    right: 2rem;
+    right: 1rem;
     top: 18rem;
 }
