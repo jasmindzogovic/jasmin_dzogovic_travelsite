@@ -15,6 +15,11 @@ nav {
     background-color: #FFFFFF;
 }
 
+header {
+    position: fixed;
+    width: 100%;
+}
+
 .nav__header-list li:hover {
     border-bottom: 3px solid var(--orange);
     transition: transform .5s ease-in-out;
