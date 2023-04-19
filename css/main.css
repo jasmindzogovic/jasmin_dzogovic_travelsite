@@ -45,6 +45,11 @@
     border: 0px;
 }
 
+.getStarted__btn:hover {
+    background-color: #8a4423;
+    cursor: pointer;
+    transition: all 1s ease-out;
+}
 .card__container {
     width: 15rem;
     height: 20rem;
