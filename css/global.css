@@ -39,6 +39,13 @@ nav li {
     margin-right: 1rem;
 }
 
+.card__container {
+    border-radius: 5px;
+    border: 1px solid black 0.2;
+    box-shadow: 0px 4px 4px black;
+    margin-right: 1rem;
+}
+
 .nav__header-list ul {
     display: flex;
 }
