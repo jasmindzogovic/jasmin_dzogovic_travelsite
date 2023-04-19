@@ -82,6 +82,11 @@ nav li {
     margin-right: 1rem;
 }
 
+.footer__icon:hover {
+    transform: scale(1.5);
+    transition: transform .3s ease-in-out;
+}
+
 .hours__container--columns {
     display: flex;
 }
