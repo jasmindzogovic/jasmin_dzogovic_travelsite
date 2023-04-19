@@ -1,12 +1,18 @@
+* {
+    --blue: #335576;
+    --beige: #FEFAF5;
+    --orange: #DB7A4E;
+}
+
 .nav__list li:first-child {
-    border-bottom: 3px solid #DB7A4E;
+    border-bottom: 3px solid var(--orange);
 }
 
 .hero__sectionContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #FEFAF5;
+    background-color: var(--beige);
     padding: 3rem 5rem 3rem 5rem;
 }
 
@@ -17,7 +23,7 @@
 
 .hero__text--left {
     width: 40%;
-    color: #335576;
+    color: var(--blue);
 }
 
 .hero__paragraph {
@@ -32,7 +38,7 @@
 }
 
 .getStarted__btn {
-    background-color: #DB7A4E;
+    background-color: var(--orange);
     color: white;
     padding: 0.75rem 2.75rem;
     border-radius: 30px;

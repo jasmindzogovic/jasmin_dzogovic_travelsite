@@ -3,6 +3,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    --blue: #335576;
+    --beige: #FEFAF5;
+    --orange: #DB7A4E;
 }
 
 nav {
@@ -13,7 +16,7 @@ nav {
 }
 
 .nav__header h3 {
-    color: #335576;
+    color: var(--blue);
 }
 
 nav a {
@@ -33,13 +36,13 @@ nav li {
 .footer__container {
     display: flex;
     justify-content: center;
-    background-color: #FEFAF5;
+    background-color: var(--beige);
     padding: 2rem 0 2rem 0;
 }
 
 .footer__container h3 {
     margin-bottom: 2rem;
-    color: #335576;
+    color: var(--blue);
 }
 
 .contact__container {
@@ -52,18 +55,31 @@ nav li {
     margin-right: 5rem;
 }
 
+.weekday__hours, .saturday__hours {
+    margin-right: 1.5rem;
+}
+
 .social__container {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .footer__paragraph--orange {
+    font-size: 0.7rem;
+    color: var(--orange);
+    padding-bottom: 0.5rem;
+}
 
+.footer__paragraphInfo {
+    color: var(--blue);
+    font-size: 0.7rem;
 }
 
 .footer__icon {
     width: 1.5rem;
     height: 1.5rem;
+    margin-right: 1rem;
 }
 
 .hours__container--columns {
