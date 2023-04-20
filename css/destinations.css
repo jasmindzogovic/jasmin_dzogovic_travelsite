@@ -4,18 +4,31 @@
     --orange: #DB7A4E;
 }
 
-.greece__hero-section {
-    background: no-repeat center url(../assets/Images/greece.jpg);
-    padding: 5rem 5rem 5rem 5rem;
+.hawaii-featured {
+    border-bottom: 3px solid var(--orange);
 }
 
-.hawaii_hero-section {
-    background-image: no-repeat center url(../assets/Images/hawaii.jpg);
-    background-repeat: no-repeat;
+.iceland-featured {
+    border-bottom: 3px solid var(--orange);
+}
+
+.greece-featured {
+    border-bottom: 3px solid var(--orange);
+}
+
+.greece__hero-section {
+    background: no-repeat center url(../assets/Images/greece.jpg);
+    padding: 5rem 5rem 7rem 5rem;
+}
+
+.hawaii__hero-section {
+    background: no-repeat center url(../assets/Images/hawaii.jpg);
+    padding: 5rem 5rem 7rem 5rem;
 }
 
 .iceland__hero-section {
     background: no-repeat center url(../assets/Images/iceland.jpg);
+    padding: 5rem 5rem 7rem 5rem;
 }
 
 .hero-section__header {
