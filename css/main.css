@@ -37,7 +37,7 @@
     height: 25rem;
 }
 
-.getStarted__btn {
+.get-started__btn {
     background-color: var(--orange);
     color: white;
     padding: 0.75rem 2.75rem;
@@ -45,10 +45,12 @@
     border: 0px;
 }
 
-.getStarted__btn:hover {
-    background-color: #8a4423;
+.get-started__btn:hover {
+    background-color: #ca6333;
+    border: 1px solid white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     cursor: pointer;
-    transition: all 1s ease-out;
+    transition: all 0.5s ease-out;
 }
 
 .card__section {
