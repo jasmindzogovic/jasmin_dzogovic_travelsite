@@ -47,7 +47,8 @@
 
 .get-started__btn:hover {
     background-color: #ca6333;
-    border: 1px solid white;
+    letter-spacing: 0.1rem;
+    opacity: 80%;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     cursor: pointer;
     transition: all 0.5s ease-out;
