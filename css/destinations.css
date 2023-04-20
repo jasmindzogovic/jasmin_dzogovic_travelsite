@@ -4,21 +4,18 @@
     --orange: #DB7A4E;
 }
 
-.greece_hero-section {
-    background: no-repeat center url(../assets/Images/greece.jpg);
-    background-size: cover;
-    height: 50rem;
+.greece__hero-section {
+    background: url(../assets/Images/greece.jpg);
+    background-repeat: no-repeat;
 }
 
 .hawaii_hero-section {
-    background: no-repeat center url(../assets/Images/hawaii.jpg);
-    background-size: cover;
-    height: 50rem;
+    background-image: url(../assets/Images/hawaii.jpg);
+    background-repeat: no-repeat;
 }
 
-.iceland_hero-section {
+.iceland__hero-section {
     background: no-repeat center url(../assets/Images/iceland.jpg);
-    background-size: cover;
 }
 
 .itinerary-card__container {
