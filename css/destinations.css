@@ -5,17 +5,23 @@
 }
 
 .greece__hero-section {
-    background: url(../assets/Images/greece.jpg);
-    background-repeat: no-repeat;
+    background: no-repeat center url(../assets/Images/greece.jpg);
+    padding: 5rem 5rem 5rem 5rem;
 }
 
 .hawaii_hero-section {
-    background-image: url(../assets/Images/hawaii.jpg);
+    background-image: no-repeat center url(../assets/Images/hawaii.jpg);
     background-repeat: no-repeat;
 }
 
 .iceland__hero-section {
     background: no-repeat center url(../assets/Images/iceland.jpg);
+}
+
+.hero-section__header {
+    color: white;
+    font-size: 5rem;
+    padding-bottom: 3rem;
 }
 
 .itinerary-card__container {
