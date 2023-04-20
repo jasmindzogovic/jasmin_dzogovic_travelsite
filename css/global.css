@@ -22,7 +22,8 @@ header {
 
 .nav__header-list li:hover {
     border-bottom: 3px solid var(--orange);
-    transition: transform .5s ease-in-out;
+    box-shadow: inset 12.5rem 0 0 0 #54b3d6;
+    transition: transform .5s ease-in-out, box-shadow .6s ease-in-out;
 }
 
 .nav__header h3 {
