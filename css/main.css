@@ -1,6 +1,10 @@
+/*Styling header link with a border bottom*/
+
 .nav__header-list li:first-child {
     border-bottom: 3px solid var(--orange);
 }
+
+/*Styling hero section*/
 
 .hero__section-container {
     display: flex;
@@ -52,6 +56,8 @@
     transform: rotate(360deg);
     transition: all 0.3s ease-in-out;
 }
+
+/*Styling card section*/
 
 .card__section {
     padding: 5rem;
