@@ -55,7 +55,7 @@
 }
 
 .get-started__btn:active {
-    transform: rotate(180deg);
+    transform: rotate(360deg);
     transition: all 0.3s ease-in-out;
 }
 
