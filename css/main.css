@@ -54,6 +54,11 @@
     transition: all 0.5s ease-out;
 }
 
+.get-started__btn:active {
+    transform: rotate(180deg);
+    transition: all 0.3s ease-in-out;
+}
+
 .card__section {
     padding: 5rem;
 }
