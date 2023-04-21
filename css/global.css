@@ -1,3 +1,5 @@
+/*Global styling */
+
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 0;
@@ -7,6 +9,8 @@
     --beige: #FEFAF5;
     --orange: #DB7A4E;
 }
+
+/*Styling header navigation bar*/
 
 nav {
     display: flex;
@@ -52,6 +56,8 @@ nav li {
 .nav__header-list ul {
     display: flex;
 }
+
+/*Styling footer*/
 
 .footer__container {
     display: flex;
