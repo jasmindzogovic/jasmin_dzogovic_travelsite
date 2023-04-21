@@ -1,9 +1,3 @@
-* {
-    --blue: #335576;
-    --beige: #FEFAF5;
-    --orange: #DB7A4E;
-}
-
 .nav__header-list li:first-child {
     border-bottom: 3px solid var(--orange);
 }

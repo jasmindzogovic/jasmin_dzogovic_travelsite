@@ -10,7 +10,7 @@
     --orange: #DB7A4E;
 }
 
-/*Styling header navigation bar*/
+/*Styling header navigation bar for all pages*/
 
 nav {
     display: flex;
@@ -57,7 +57,7 @@ nav li {
     display: flex;
 }
 
-/*Styling footer*/
+/*Styling footer for all pages*/
 
 .footer__container {
     display: flex;

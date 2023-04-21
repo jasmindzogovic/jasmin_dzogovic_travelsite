@@ -1,8 +1,4 @@
-* {
-    --blue: #335576;
-    --beige: #FEFAF5;
-    --orange: #DB7A4E;
-}
+/*Styling navigation list border bottom*/
 
 .hawaii-featured {
     border-bottom: 3px solid var(--orange);
@@ -15,6 +11,8 @@
 .greece-featured {
     border-bottom: 3px solid var(--orange);
 }
+
+/*Styling Greece page hero section*/
 
 .greece__hero-section {
     background: no-repeat center url(../assets/Images/greece.jpg);
