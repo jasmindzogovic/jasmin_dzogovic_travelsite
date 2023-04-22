@@ -16,16 +16,19 @@
 
 .greece__hero-section {
     background: no-repeat center url(../assets/Images/greece.jpg);
+    background-size: cover;
     padding: 5rem 5rem 7rem 5rem;
 }
 
 .hawaii__hero-section {
     background: no-repeat center url(../assets/Images/hawaii.jpg);
+    background-size: cover;
     padding: 5rem 5rem 7rem 5rem;
 }
 
 .iceland__hero-section {
     background: no-repeat center url(../assets/Images/iceland.jpg);
+    background-size: cover;
     padding: 5rem 5rem 7rem 5rem;
 }
 
